@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/Dreamacro/go-shadowsocks2/socks"
+	"github.com/recall704/go-shadowsocks2/socks"
 )
 
 func redirLocal(addr string, d Dialer)  { tcpLocal(addr, d, pfNatLookup) }
